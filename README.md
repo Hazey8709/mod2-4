@@ -1,16 +1,22 @@
-# Project Template
+# Project Mod 2.4  Practice
 
 
 
 ### Using:
 *NPM, Express, Jest, Dotenv, Axios, Nodemon.*
 
+**Website**: https://pokeapi.co/ <br>
+**API**: https://pokeapi.co/api/v2/
+
 
 ### Details:
-**(Backend Template)** <br>
-<br>
 **Server Status**: *http://www.localhost:4000/*
 
 
 
 ### Directions:
+
+##### API End-Points: 
+**Server Status**: *http://www.localhost:4000/* <br>
+**All Pokemon**: *http://www.localhost:4000/pokemon/* <br>
+**Pokemon by ID**: *http://www.localhost:4000/pokemon/1/* <br>
