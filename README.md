@@ -10,7 +10,12 @@
 
 
 ### Details:
-**Server Status**: *http://www.localhost:4000/*
+**Server Status**: *http://www.localhost:4000/* <br>
+**Crud Operations**: *Read,*
+
+**Operations**: <br>
+*Get All* <br>
+*Get by ID*
 
 
 
