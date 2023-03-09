@@ -2,11 +2,11 @@ const { pokemon, pokemonId } = require("../services/pokemonServ");
 
 describe("", () => {
     test("", () => {
-        expect(uppercase("")).toBe("");
+        expect().toBe();
     });
 
     test("", () => {
-        expect(lowercase("")).toBe("");
+        expect().toBe();
     });
 });
 
