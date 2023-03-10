@@ -18,21 +18,20 @@ describe("Pokemon Test", () => {
     });
 });
 
-// //! To Use MOCK Data to TEST --(NOT API)--
-// describe("Pokemon Test 2", () => {
-//     test("Return 20 pokemon", async () => {
-//         const results = await pokemon().data;
+//! To Use MOCK Data to TEST --(NOT API)--
+describe("Pokemon Test 2", () => {
+    test("Return 20 pokemon", async () => {
+        const results = await pokemon();
 
-//         expect(results).toBe(results);
-//     });
+        expect(results.data.results).toHaveLength(20);
+    });
 
-//     test("Return By ID", async () => {
-//         const results = await pokemonId(1);
+    test("Return By ID", async () => {
+        const results = await pokemonId(1);
 
-//         expect(results.data.name).toEqual("bulbasaur");
-
-//     });
-// });
+        expect(results.data.name).toEqual("bulbasaur");
+    });
+});
 
 // describe("", () => {
 //     test("", () => {

@@ -16,7 +16,3 @@ module.exports = {
     pokemon,
     pokemonId,
 };
-
-
-// port=4000
-// pokeURL=https://pokeapi.co/api/v2/pokemon/
