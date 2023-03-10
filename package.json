@@ -1,7 +1,7 @@
 {
-    "name": "backend-template",
-    "version": "1.0.0",
-    "description": "template for back end using NPM, Express, Jest, dotenv, Nodemon, Axios.",
+    "name": "Mod2-6",
+    "version": "1.0.2",
+    "description": "Assignment. Branches- main, mod2-6.",
     "main": "server.js",
     "scripts": {
         "test": "jest --coverage",

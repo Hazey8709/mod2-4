@@ -7,12 +7,16 @@ const pokemon = async () => {
     return await axios.get(`${process.env.pokeURL}`);
 };
 
-const pokemonId = async (id) => {
+const pokemonId = async (pokeId) => {
     console.log("GET-ID");
-    return await axios.get(`${process.env.pokeURL}${id}`);
+    return await axios.get(`${process.env.pokeURL}${pokeId}`);
 };
 
 module.exports = {
     pokemon,
     pokemonId,
 };
+
+
+// port=4000
+// pokeURL=https://pokeapi.co/api/v2/pokemon/

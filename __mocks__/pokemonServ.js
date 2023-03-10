@@ -108,7 +108,7 @@ const pokemon = async () => {
     });
 };
 
-const pokemonId = async (id) => {
+const pokemonId = async (name) => {
     console.log("Mocked: GET-By-ID");
     return Promise.resolve({
         data: [

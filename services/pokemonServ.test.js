@@ -5,16 +5,16 @@ jest.mock("../__mocks__/pokemonServ");
 //! Using API To Test
 describe("Pokemon Test", () => {
     test("Return 20 pokemon", async () => {
-        const results = await pokemon().results;
+        const result = await pokemon();
 
-        expect(results).toBe(results);
+        expect(result.data.results).toHaveLength(20);
     });
 
     //! Not working as expected
     test("Return By ID", async () => {
-        const results = await pokemonId(1).results;
+        const result = await pokemonId("1");
 
-        expect(results.name).toEqual("bulbasaur");
+        expect(result.data.name).toBe("bulbasaur");
     });
 });
 
@@ -29,11 +29,8 @@ describe("Pokemon Test", () => {
 //     test("Return By ID", async () => {
 //         const results = await pokemonId(1);
 
-//         //expect(results.data.id).toHaveLength(1);
 //         expect(results.data.name).toEqual("bulbasaur");
-//         // expect(results.data.url).toEqual(
-//         //     "https://pokeapi.co/api/v2/pokemon/1/"
-//         // );
+
 //     });
 // });
 
